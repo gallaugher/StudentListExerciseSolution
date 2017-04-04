@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		3EC7F25E1E8074A500E7F251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7F25D1E8074A500E7F251 /* AppDelegate.swift */; };
-		3EC7F2601E8074A500E7F251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7F25F1E8074A500E7F251 /* ViewController.swift */; };
+		3EC7F2601E8074A500E7F251 /* StudentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7F25F1E8074A500E7F251 /* StudentListViewController.swift */; };
 		3EC7F2631E8074A500E7F251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7F2611E8074A500E7F251 /* Main.storyboard */; };
 		3EC7F2651E8074A500E7F251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7F2641E8074A500E7F251 /* Assets.xcassets */; };
 		3EC7F2681E8074A500E7F251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC7F2661E8074A500E7F251 /* LaunchScreen.storyboard */; };
+		3EC7F2701E807CCC00E7F251 /* StudentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC7F26F1E807CCC00E7F251 /* StudentDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3EC7F25A1E8074A500E7F251 /* StudentList-inClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StudentList-inClass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EC7F25D1E8074A500E7F251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3EC7F25F1E8074A500E7F251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EC7F25F1E8074A500E7F251 /* StudentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListViewController.swift; sourceTree = "<group>"; };
 		3EC7F2621E8074A500E7F251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EC7F2641E8074A500E7F251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC7F2671E8074A500E7F251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EC7F2691E8074A500E7F251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EC7F26F1E807CCC00E7F251 /* StudentDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				3EC7F25D1E8074A500E7F251 /* AppDelegate.swift */,
-				3EC7F25F1E8074A500E7F251 /* ViewController.swift */,
+				3EC7F25F1E8074A500E7F251 /* StudentListViewController.swift */,
 				3EC7F2611E8074A500E7F251 /* Main.storyboard */,
 				3EC7F2641E8074A500E7F251 /* Assets.xcassets */,
 				3EC7F2661E8074A500E7F251 /* LaunchScreen.storyboard */,
 				3EC7F2691E8074A500E7F251 /* Info.plist */,
+				3EC7F26F1E807CCC00E7F251 /* StudentDetailViewController.swift */,
 			);
 			path = "StudentList-inClass";
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC7F2601E8074A500E7F251 /* ViewController.swift in Sources */,
+				3EC7F2601E8074A500E7F251 /* StudentListViewController.swift in Sources */,
 				3EC7F25E1E8074A500E7F251 /* AppDelegate.swift in Sources */,
+				3EC7F2701E807CCC00E7F251 /* StudentDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
